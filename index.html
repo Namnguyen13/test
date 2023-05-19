@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Phần mềm tìm trọ</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/date.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div>
+        <div class= "form">
+             <div class="formbtn login">
+                 <div class="redbtn">
+                 <button><a href="login.html">LOGIN</a></button>
+                 </div>  
+             </div>
+        </div>
+             
+        <div class="row align-items-center py-2 px-lg-5">
+                <div class="col-lg-4">
+                    <div class="logo">
+                        <img src="img/github-mark.png" alt="" class="imglogo">
+                        <div class="textlogo">
+                            <a href="" class="navbar-brand d-none d-lg-block">
+                                <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">motelroom</span></h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 mb-3">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-2 py-lg-0 px-lg-5">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">motelroom</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
+                    <a href="category.html" class="nav-item nav-link">Khu vực</a>
+                    <a href="single.html" class="nav-item nav-link">Tin tức</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="#" class="dropdown-item">Quảng cáo</a>
+                            <a href="contact.html" class="dropdown-item">Liên hệ </a>
+                            
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Liên Hệ</a>
+                </div>
+                <div class="input-group ml-auto" style="width: 100%; max-width: 300px;">
+                    <input type="text" class="form-control" placeholder="Tìm Phòng">
+                    <div class="input-group-append">
+                        <button class="input-group-text text-secondary"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Top News Slider Start -->
+    
+    <!-- Top News Slider End -->
+
+
+    <!-- Main News Slider Start -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="owl-carousel owl-carousel-2 carousel-item-1 position-relative mb-3 mb-lg-0">
+                        <div class="position-relative overflow-hidden" style="height: 435px;">
+                            <img class="img-fluid h-100" src="img/phong_1.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-1">
+                                    <a class="text-white" href="">View thoáng mát</a>
+                                    <span class="px-2 text-white">/</span>
+                                    <a class="text-white" href="">5.000.000vnđ</a>
+                                </div>
+                                <a class="h2 m-0 text-white font-weight-bold" href="">Phòng trọ đẹp  </a>
+                            </div>
+                        </div>
+                        <div class="position-relative overflow-hidden" style="height: 435px;">
+                            <img class="img-fluid h-100" src="img/phong_2.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-1">
+                                    <a class="text-white" href="">Tiện lợi </a>
+                                    <span class="px-2 text-white">/</span>
+                                    <a class="text-white" href="">3.500.000vnđ</a>
+                                </div>
+                                <a class="h2 m-0 text-white font-weight-bold" href="">Đầy đủ tiện nghi</a>
+                            </div>
+                        </div>
+                        <div class="position-relative overflow-hidden" style="height: 435px;">
+                            <img class="img-fluid h-100" src="img/phong_3.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-1">
+                                    <a class="text-white" href="">một người ở</a>
+                                    <span class="px-2 text-white">/</span>
+                                    <a class="text-white" href="">1.500.000vnđ</a>
+                                </div>
+                                <a class="h2 m-0 text-white font-weight-bold" href="">Tiện lợi</a>
+                            </div>
+                        </div>
+                        <div class="position-relative overflow-hidden" style="height: 435px;">
+                            <img class="img-fluid h-100" src="img/phong_4.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-1">
+                                    <a class="text-white" href="">Rộng rãi</a>
+                                    <span class="px-2 text-white">/</span>
+                                    <a class="text-white" href="">3.000.000vnđ</a>
+                                </div>
+                                <a class="h2 m-0 text-white font-weight-bold" href="">Gác xép</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                
+                    <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+                        <h3 class="m-0">Dịch Vụ</h3>
+                        <a class="text-secondary font-weight-medium text-decoration-none" href="">Tất cả</a>
+                    </div>
+                    <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
+                        <img class="img-fluid w-100 h-100" style="object-fit: cover;background-color: #f90707;">
+                        <a href="" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                            Đặt phòng
+                        </a>
+                    </div>
+                    <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
+                        <img class="img-fluid w-100 h-100" style="object-fit: cover;background-color: #edf508;">
+                        <a href="category.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                            Khu vực
+                        </a>
+                    </div>
+                    <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
+                        <img class="img-fluid w-100 h-100" style="object-fit: cover;background-color: #08d8f323;">
+                        <a href="" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                            Tìm phòng
+                        </a>
+                    </div>
+                    <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
+                        <img class="img-fluid w-100 h-100" style="object-fit: cover;background-color: #2f0202;">
+                        <a href="single.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                            Tin tức
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main News Slider End -->
+
+
+    <!-- Featured News Slider Start -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+                <h3 class="m-0">Khu vực Hà Đông</h3>
+                <a class="text-secondary font-weight-medium text-decoration-none" href="">Tất Cả</a>
+            </div>
+            <div class="owl-carousel owl-carousel-2 carousel-item-4 position-relative">
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/phong_5_HD.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <span class="text-white">3.500.000vnđ</span>
+                        </div>
+                        <a class="h4 m-0 text-white" href="">Ngõ 87, Yên Xá</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/phong_6_HD.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <span class="text-white">4.000.000vnđ</span>
+                        </div>
+                        <a class="h4 m-0 text-white" href="">Tân Triều, Triều Khúc</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/phong_7_HD.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <span class="text-white">4.000.000vnđ</span>
+                        </div>
+                        <a class="h4 m-0 text-white" href="">242 Vạn Phúc</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/phong_8_HD.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <span class="text-white">3.6000.000vnđ</span>
+                        </div>
+                        <a class="h4 m-0 text-white" href="">Ngõ 83/39 Tân Triều</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/phong_9_HD.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <span class="text-white">3.400.000vnđ</span>
+                            
+                        </div>
+                        <a class="h4 m-0 text-white" href="">Mỗ Lao</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/phong_10_HD.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <span class="text-white">3.700.000vnđ</span>
+                        </div>
+                        <a class="h4 m-0 text-white" href="">123, Yên Xá</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Featured News Slider End -->
+
+
+
+
+    <div class="tacket">
+        <div class="head-tacket">
+            <!-- <img src="./img/github-mark.png" alt="" class=""> -->
+            <h1 class="">Đặt Phòng</h1>
+        </div>
+
+        <div class="main-tacket">
+            <div class="head-main-tacket">
+                <h1 class="">Phòng Tân Triều, Triều Khúc</h1>
+                <hr size="6" width="55%" align="left" color="black">
+                <h3>Hình ảnh bên ngoài tòa nhà</h3>
+                    <img src="./img/anh_ben_ngoai_phong_6.jpg" alt=""> 
+                <h3 class="">Một số hình ảnh bên trong phòng</h3>
+                <div class="main-tacket-img">
+                    <img src="./img/phong_6_HD.jpg" alt="" class="">
+                    <img src="./img/anh_phong_6.jpg" alt="" class="">
+                    <img src="./img/anh_phong_6.1.jpg" alt="" class="">
+                    <img src="./img/anh_phong_6.2.jpg" alt="" class="">
+                </div>
+                <h3>Thông tin cơ bản về phòng ở</h3>
+                <h4 class="">Phòng mới, đầy đủ tiện nghi, có ban công, điều hòa, nóng lạnh, bếp nấu, tủ quần áo <p>Điện 3.500vnđ</p> 
+                    <p>Nước 70.000vnđ / người </p> <p>Wifi 100.000vnđ / người</p> </h4>
+            </div>
+            <div class="main-main-tacket">
+                <div class="day-main-ticket">
+                    <h2 class="h1-main-tacket">Đặt lịch đến xem phòng</h2>
+                    <div class="round-ul">
+                        <ul class="ul-day-tacket">
+                            <div class="datepicker">
+                                <label for="dateofbirth" style="margin-top: 10px;">Chọn ngày </label>
+                                <input type="date" name="dateofbirth" id="dateofbirth">
+                            </div>                                                  
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hour-main-ticket">
+                    <h2 class="h1-main-tacket" >Hẹn thời gian đến xem </h2>
+                    <ul class="ul-hour-ticket">
+                        <div class="timepicker">
+                            <label for="appt-time" >Đặt lịch hẹn </label>
+                            <input type="time" name="time">
+                        </div> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="foot-ticket">
+                <button class="bill-ticket">Thanh toán</button>
+                <div>
+                    <button class="check-ticket">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Category News Slider Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 py-3">
+                    <div class="bg-light py-2 px-4 mb-3">
+                        <h3 class="m-0">Khu vực Đống Đa</h3>
+                    </div>
+                    <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_1_DD.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>4.000.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">276 Lê Duẩn, Hoàng An, Đống Đa</a>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_2_DD.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>2.500.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">Ngõ số 43, gần Chùa Bộc, Đống Đa </a>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_3_DD.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>3.000.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">S396 Xã Đàn-164 Đê La Thành Nhỏ Đống Đa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="bg-light py-2 px-4 mb-3">
+                        <h3 class="m-0">Khu vực Hà Đông</h3>
+                    </div>
+                    <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_11_HD.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>4.300.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">Số 112, đường Chùa Võ, Dương Nội, Hà Đông</a>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_12_HD.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>3.500.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">Số 14, Lô C3, đường Lê Trọng Tấn, Dương Nội</a>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_13_HD.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>2.700.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">Số 703 Quang Trung, Hà Đông, Hà Nội</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Category News Slider End -->
+
+
+    <!-- Category News Slider Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 py-3">
+                    <div class="bg-light py-2 px-4 mb-3">
+                        <h3 class="m-0">Khu vực Thanh Xuân</h3>
+                    </div>
+                    <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_1_TX.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>2.700.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">12/7 Vũ Trọng Phụng, Thanh Xuân</a>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_2_TX.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>3.500.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">Nguyễn Trãi, Tổ 10, Thanh Xuân, Hà Nội</a>
+                            </div>
+                        </div>
+                        
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/phong_3_TX.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 13px;">
+                                        <span>3.500.000vnđ</span>
+                                    </div>
+                                    <a class="h4 m-0" href="">Lê Văn Lương, Thanh Xuân, Hà Nội</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="bg-light py-2 px-4 mb-3">
+                        <h3 class="m-0">Khu vực Hoàng Mai</h3>
+                    </div>
+                    <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_1_HM.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>4.500.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">Thanh Liệt, Hoàng Mai, Hà Nội</a>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_2_HM.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>2.700.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">Tam Trinh, Yên Sở, Hoàng Mai, Hà Nội</a>
+                            </div>
+                        </div>
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/phong_3_HM.jpg" style="object-fit: cover;">
+                            <div class="overlay position-relative bg-light">
+                                <div class="mb-2" style="font-size: 13px;">
+                                    <span>2.000.000vnđ</span>
+                                </div>
+                                <a class="h4 m-0" href="">Vĩnh Hưng, Hoàng Mai, Hà Nội</a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Category News Slider End -->
+
+
+    <!-- News With Sidebar Start -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+                                <h3 class="m-0">Khu vực Hai Bà Trưng</h3>
+                                <a class="text-secondary font-weight-medium text-decoration-none" href="">Tất cả</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/phong_1_HBT.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <span>3.000.000vnđ</span>
+                                    </div>
+                                    <a class="h4" href="">Thanh Lương, Hai Bà Trưng, Hà Nội</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/phong_2_HBT.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <span>3.000.000vnđ</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Kim Ngưu, Thanh Nhàn, Hai Bà Trưng, Hà Nội</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/phong_3_HBT.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <span>2.500.000vnđ</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Trần Khát Chân, Thanh Nhàn, Hai Bà Trưng, Hà Nội</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/phong_4_HBT.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <span>3.000.000vnđ</span>
+                                    </div>
+                                    <a class="h4" href="">Bạch Đằng, Hai Bà Trưng, Hà Nội</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/phong_5_HBT.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <span>2.700.000vnđ</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Nguyễn Khoái, Thanh Lương, Hai Bà Trưng</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/phong_6_HBT.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <span>3.700.000vnđ</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Trần Thánh Tông, Phạm Đình Hổ, Hai Bà Trưng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+                                <h3 class="m-0">Khu vực Tây Hồ</h3>
+                                <a class="text-secondary font-weight-medium text-decoration-none" href="">Tất cả</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/phong_1_TH.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <span>4.000.000vnđ</span>
+                                    </div>
+                                    <a class="h4" href="">Tô Ngọc Văn, Quảng An, Tây Hồ</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/phong_2_TH.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <span>2.000.000vnđ</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Yên Phụ, Tây Hồ, Hà Nội</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/phong_3_TH.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <span>4.500.000vnđ</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Tứ Liên, Tổ dân phố 3, Tây Hồ, Hà Nội</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/phong_4_TH.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                       <span>2.700.000vnđ</span>
+                                    </div>
+                                    <a class="h4" href="">An Dương, Tứ Liên, Tây Hồ, Hà Nội, Việt Nam</a>
+                                   
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/phong_5_TH.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <span>2.700.000vnđ</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Âu Cơ, Tổ dân phố số 16, Tây Hồ, Hà Nội, Việt Nam</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/phong_6_TH.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <span>3.000.000vnđ</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">2 Ngõ 11 - Tô Ngọc Vân, Quảng An, Tây Hồ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 pt-3 pt-lg-0">
+                    <!-- Social Follow Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Follow Us</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #39569E;">
+                                <small class="fab fa-facebook-f mr-2"></small><small>12,345 Fans</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #52AAF4;">
+                                <small class="fab fa-twitter mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #0185AE;">
+                                <small class="fab fa-linkedin-in mr-2"></small><small>12,345 Connects</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #C8359D;">
+                                <small class="fab fa-instagram mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #DC472E;">
+                                <small class="fab fa-youtube mr-2"></small><small>12,345 Subscribers</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #1AB7EA;">
+                                <small class="fab fa-vimeo-v mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Social Follow End -->
+
+                    <!-- Newsletter Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Phản hồi</h3>
+                        </div>
+                        <div class="bg-light text-center p-4 mb-3">
+                            <p>Bạn có thể nhận mọi thông báo mới nhất qua email</p>
+                            <div class="input-group" style="width: 100%;">
+                                <input type="text" class="form-control form-control-lg" placeholder="Your Email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary">Gửi</button>
+                                </div>
+                            </div>
+                            <small></small>
+                        </div>
+                    </div>
+                    <!-- Newsletter End -->
+
+                    <!-- Ads Start -->
+                    <div class="mb-3 pb-3">
+                        <a href="https://phenikaa-uni.edu.vn/vi"><img class="img-fluid" src="img/phenikaa.jpg" alt=""></a>
+                    </div>
+                    <!-- Ads End -->
+
+                    <!-- Popular News Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Khu vực Từ Liêm</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/phong_1_TL.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">2.300.000vnđ</a>
+                                </div>
+                                <a class="h6 m-0" href="">267 Thượng Cá, Từ Liêm, Hà Nội</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/phong_2_TL.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">2.500.000vnđ</a>
+                                </div>
+                                <a class="h6 m-0" href="">Tây Tựu, Từ Liêm, Hà Nội</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/phong_3_TL.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">3.000.000vnđ</a>
+                                </div>
+                                <a class="h6 m-0" href="">Cầu Cốc, Tây Mỗ, Từ Liêm, Hà Nội</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/phong_4_TL.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">3.200.000vnđ</a>
+                                </div>
+                                <a class="h6 m-0" href="">Trung Văn, Từ Liêm, Hà Nội</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/phong_5_TL.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">3.500.000vnđ</a>
+                                </div>
+                                <a class="h6 m-0" href="">Trần Cung, Nghĩa Tân, Từ Liêm, Hà Nội</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Popular News End -->
+
+                    <!-- Tags Start -->
+                    
+                <!-- Tags End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- News With Sidebar End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="mb-2 mt-n2 display-5 text-uppercase"><span class="text-primary">motelroom</span></h1>
+                </a>
+                <p></p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-bold mb-4" style="font-size: 40px;padding-bottom: 10px">Tags</h4>
+                <div class="d-flex flex-wrap m-n1">
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Ban công</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Gác xép</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Gần chợ</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Có thang máy</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">2n1k</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Đủ đồ</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Vệ sinh khép kín</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Giường tầng</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Mặt đường</a>   
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">studio</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary m-1">chung cư mini</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-bold mb-4" style="font-size: 40px; padding-bottom: 25px;">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>About</a>
+                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Advertise</a>
+                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Privacy & policy</a>
+                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Terms & conditions</a>
+                    <a class="text-secondary" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Contact</a>
+                </div>
+            </div>
+            <div>
+                <img src="img/github-mark.png" alt="logo my team" >
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5">
+        <p class="m-0 text-center">
+            &copy; <a class="font-weight-bold" href="#">Đặt phòng trọ</a>. All Rights Reserved. 
+			
+			Designed by <a class="font-weight-bold" href="https://github.com/PhwTha00/se_N10_project6_App_tim_tro">Project 6</a>
+        </p>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-dark back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/date.js"></script>
+</body>
+
+</html>
